@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ServiceModel.Syndication;
 using Firehose.Web.Infrastructure;
 
 namespace Firehose.Web.Authors
 {
-    public class SaturninoPimentel : IAmAMicrosoftMVP, IFilterMyBlogPosts
+    public class SaturninoPimentel : IAmAMicrosoftMVP
     {
         public string FirstName => "Saturnino";
         public string LastName => "Pimentel";
@@ -21,10 +20,8 @@ namespace Firehose.Web.Authors
         {
             get { yield return new Uri("https://saturninopimentel.com/rss/"); }
         }
+
         public GeoPosition Position => new GeoPosition(19.432608, -99.133209);
-        public bool Filter(SyndicationItem item)
-        {
-            return item.Title.Text.ToLowerInvariant().Contains("xamarin");
-        }
+        public string FeedLanguageCode => "es";
     }
 }

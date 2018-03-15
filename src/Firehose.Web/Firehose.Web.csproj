@@ -241,22 +241,23 @@
     <Compile Include="App_Start\ContainerConfig.cs" />
     <Compile Include="App_Start\IoC.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Authors\DamienDoumer.cs" />
+    <Compile Include="Authors\DanielCauser.cs" />
+    <Compile Include="Authors\JesusAngulo.cs" />
     <Compile Include="Authors\ElbrinnerDaSilvaFernandes.cs" />
-	<Compile Include="Authors\DanielCauser.cs" />
     <Compile Include="Authors\MahmoudAli.cs" />
+    <Compile Include="Authors\MartinZikmund.cs" />
     <Compile Include="Authors\NigelFerrissey.cs" />
     <Compile Include="Authors\DamianMehers.cs" />
+    <Compile Include="Authors\SebastianJensen.cs" />
     <Compile Include="Authors\StefanRiedmann.cs" />
+    <Compile Include="Authors\ThiagoBertuzzi.cs" />
     <Compile Include="Authors\Xablu.cs" />
-    <Compile Include="Authors\LoganEdge.cs" />
     <Compile Include="Authors\MartynWiggins.cs" />
-    <Compile Include="Authors\SamDebruyn.cs" />
     <Compile Include="Authors\VulcanLee.cs" />
     <Compile Include="Authors\AlexandrSorokoletov.cs" />
-    <Compile Include="Authors\BartoszRadlak.cs" />
     <Compile Include="Authors\GoneMobile.cs" />
     <Compile Include="Authors\AlexDunn.cs" />
-    <Compile Include="Authors\DiegoPonceDeLeon.cs" />
     <Compile Include="Authors\MalcolmJack.cs" />
     <Compile Include="Authors\CarelLotz.cs" />
     <Compile Include="Authors\AdamPatridge.cs" />
@@ -268,10 +269,8 @@
     <Compile Include="Authors\DanRigby.cs" />
     <Compile Include="Authors\DanSiegel.cs" />
     <Compile Include="Authors\ReactiveUI.cs" />
-    <Compile Include="Authors\DanielKrzyczkowski.cs" />
     <Compile Include="Authors\GlennStephens.cs" />
     <Compile Include="Authors\MarcosSantos.cs" />
-    <Compile Include="Authors\LarryOBrien.cs" />
     <Compile Include="Authors\PieterNijs.cs" />
     <Compile Include="Authors\TheXamarinPodcast.cs" />
     <Compile Include="Authors\PeterFoot.cs" />
@@ -290,15 +289,12 @@
     <Compile Include="Authors\TimotheLariviere.cs" />
     <Compile Include="Authors\MFractor.cs" />
     <Compile Include="Authors\TomSoderling.cs" />
-    <Compile Include="Authors\WeeklyXamarin.cs" />
     <Compile Include="Authors\SvenMichaelStuebe.cs" />
     <Compile Include="Authors\KerryLothrop.cs" />
     <Compile Include="Authors\RobinManuelThiel.cs" />
-    <Compile Include="Authors\RobGibbens.cs" />
     <Compile Include="Authors\TomaszCielecki.cs" />
     <Compile Include="Authors\JonDouglas.cs" />
     <Compile Include="Authors\JulianoCustodio.cs" />
-    <Compile Include="Authors\WilliamRodriguez.cs" />
     <Compile Include="Authors\JanTourlamain.cs" />
     <Compile Include="Authors\WinstonGubantes.cs" />
     <Compile Include="Authors\WilsonVargas.cs" />
@@ -310,23 +306,22 @@
     <Compile Include="Controllers\PreviewController.cs" />
     <Compile Include="Controllers\AuthorsController.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\SyndicationItemExtensions.cs" />
     <Compile Include="Infrastructure\CombinedFeedSource.cs" />
     <Compile Include="Controllers\FeedController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Infrastructure\Logger.cs" />
-    <Compile Include="Infrastructure\GravatarHashingExtensions.cs" />
+    <Compile Include="Extensions\GravatarHashingExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\IAmABlogger.cs" />
     <Compile Include="Infrastructure\IFilterMyBlogPosts.cs" />
-    <Compile Include="Infrastructure\Md5HashingExtensions.cs" />
+    <Compile Include="Extensions\Md5HashingExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Authors\JimBennett.cs" />
     <Compile Include="Authors\MarcoKuiper.cs" />
-    <Compile Include="Authors\GlennVersweyveld.cs" />
     <Compile Include="Authors\MartijnVanDijk.cs" />
-    <Compile Include="Authors\AntonioFeregrino.cs" />
     <Compile Include="Authors\GregShackles.cs" />
     <Compile Include="Authors\ChrisWilliams.cs" />
     <Compile Include="Authors\GeertVanDerCruijsen.cs" />
@@ -347,8 +342,7 @@
     <Compile Include="Authors\IoneSouzaJunior.cs" />
     <Compile Include="Authors\DavidBritch.cs" />
     <Compile Include="Authors\AlejandroRuiz.cs" />
-    <Compile Include="Authors\SebastianSeidel.cs" />
-    <Compile Include="Authors\FabioCozzolino.cs" />
+    <None Include="Authors\SebastianSeidel.cs" />
     <Compile Include="Authors\AlessandroCaliaro.cs" />
     <Compile Include="Authors\JonPeppers.cs" />
     <Compile Include="Authors\MarioGalvan.cs" />
@@ -359,7 +353,6 @@
     <Compile Include="Authors\TimKlingeleers.cs" />
     <Compile Include="Authors\AsfendYarHamid.cs" />
     <Compile Include="Authors\BasDeCort.cs" />
-    <Compile Include="Authors\CharlinAgramonte.cs" />
     <Compile Include="Authors\JesseLiberty.cs" />
     <Compile Include="Authors\RendyDelRosario.cs" />
     <Compile Include="Authors\JoeMeyer.cs" />
@@ -367,6 +360,10 @@
     <Compile Include="Authors\DevlinDuldulao.cs" />
     <Compile Include="Authors\WilliamBarbosa.cs" />
     <Compile Include="Authors\SaturninoPimentel.cs" />
+    <Compile Include="Authors\CharlinAgramonte.cs" />
+    <Compile Include="Authors\MarcosCobenaMorian.cs" />
+    <Compile Include="Authors\EvgenyZborovsky.cs" />
+    <Compile Include="Extensions\IEnumerableExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
